@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+
+<head>
+<title> WEB1 - html </title>
+<meta charset="utf-8">
+</head>
+
+<body>
+위의 것들은 본문을 설명,
+밑의 것들은 본문 내용
+위의 것들을 head라는 태그로,
+그래서 본문을 body라는 태그로 묶기로 약속
+이 모든 것을 통용하는 것은 html태그,
+그 위에는 관용적으로 !doctype html태그를 사용
+
+"1.html"이 아닌 "WEB1 - html"이 웹페이지 제목으로 바뀜.
+검색 엔진들이 타이틀을 보고 찾음.
+
+
+<ul>
+    <li>1. HTML</li>
+    <li>2. CSS</li>
+    <li>3. JavaScript</li>
+</ul>
+목차(목록)를 만들 때 쓸 수 있는 태그 = list -> "li"<br>
+"ul"과 "li"는 부모 자식 관계
+<ul>
+    <li>1. HTML</li>
+    <li>2. CSS</li>
+    <li>3. JavaScript</li>
+</ul>
+<ul>
+    <li>가. HTML</li>
+    <li>나. CSS</li>
+    <li>다. JavaScript</li>
+</ul>
+이런 식으로 연관된 애들을 구분
+<br>"ul"이 아닌 "ol"로 바꾸면
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
+"ordered list"와 "unordered list"의 차이
+
+
+
+<h1>HTML</h1>
+<h1>HTML이란 무엇인가?</h1>
+여기선 잘 되는데, "이란 무엇인가?" 라고 하면
+"뷁궳" 이런식으로 나타날 수 있음.
+0과 1을 저장하기 위한 약속 중 하나인 UTF-8이라는 방식으로 저장된 상태
+이 파일을 웹브라우저가 열 때도 UTF-8로 열어야 문제가 없음.
+웹브라우저한테 utf-8로 열라고 하기 위해서 meta를 사용
+
+<a href="https://www.w3.org/TR/html4/" target="_blank" title="html5 specification">
+Hypertext Markup Language (HTML)</a> is the
+standard markup language for <strong>creating <u>web</u> pages</strong>
+and web applications.
+
+<p style="margin-top:60px;">Web browsers receive HTML documents from a web server
+or from local storage and render them into multimedia web pages.
+HTML describes the structure of a web page semantically
+and originally included cues for the appearance of the document.</p>
+
+margin-top:60px의 경우 여백과 여백이 40px만큼 떨어진 것<br>
+hypertext가 링크, h에다가 reference 참조의미를 더해서 href<br>
+링크 열었을 때 새 탭에서 열고 싶게 하려면 "target=_blank" 추가<br>
+
+<h1>W3C</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+<br>h7는 없음.
+<h2>html에는 약 150개의 tag가 존재한다.</h2>
+
+https://www.advancedwebranking.com/html/
+
+<h1>Advanced Web Ranking</h1>
+<br>html, head  100%
+<br>body        99.1%
+<br>title       97.9%
+<br>meta        96.5%
+<br>div         95.1%
+<br>a           93.7%
+<br>script      93.5%
+<br>link        92.7%
+<br>img         89.2%
+<br>span        86.1%
+<br>p           84.3%
+<br>li, ul      80.8%
+<br>등등이 있다.
+<br>br이라는 태그가 <strong>"줄바꿈"</strong>
+<br>"br"말고 <strong>"p"</strong>라는 태그로 단락을 구분하는 편인가봄.
+<br>"p"를 쓰는게 정보로서 더 가치있는 웹페이지
+<br>br의 사용량은 69.8%에 그쳤다.
+<br>style이라는 CSS 언어가 있다. 
+
+<br> https://opentutorials.org 사이트 참고
+단락을 나누면, 우리가 직접 글씨 크기를 설정하고 이런것보다 훨씬 낫다
+source라는 게 있을텐데, 이게 훨씬 보기 편한듯.
+웹페이지가 무언가를 검색할 때 html을 읽는데,
+예시로 '코딩'을 검색했다고 할 때,
+일반적인 글의 '코딩' 단어가 들어가는 글과,
+'코딩'을 제목으로 한 글을 비교했을 때
+검색 엔진은 후자를 선택할 것.
+즉, 이런 기초들을 탄탄히 해야 한다.
+
+사진을 넣는 법을 알아보자
+"<img>" 하나만 넣는 것만으로는 부족
+태그의 이름만으로는 정보가 부족하니
+<img src="picture_1.jpg" width="100%">
+img 옆의 것들은 attribute, 속성이라고 부른다.
+src는 source라는 의미, 그 옆에 주소를 적어놓으면 됨.
+<img width="100%" src="picture_1.jpg">
+순서가 바뀌어도 상관이 없다.
+참고, unsplash라는 사이트에 있는 이미지들은 퀄리티도 높고 저작권도 없음.
+
+<parent>
+    <child></child>
+</parent>
+부모가 있는 곳에 자식이 있고, 자식이 있는 곳에 부모가 있는 경우가 있음
+이에 해당하는 태그들을 찾아보자
+
+표는 "table"이라고 하는데, 얘는 3개가 세트
+<br>html, head  100%
+<br>body        99.1%
+<br>title       97.9%
+<br>meta        96.5%
+슈퍼스타들을 한 번 알아보자.
+
+a태그가 없었다면 검색 엔진 등은 할 수 없음.
+anchor의 첫 글자를 땄고, 배가 정박할 때 사용하는 닻
+정보의 바다에 정박한다는 의미
+a의 의미는 바로 "링크"이다.
+
+
+</body>
+</html>
